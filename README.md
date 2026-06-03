@@ -2,13 +2,30 @@
 
 ## Run Locally
 
+**Option 1 — No install required (recommended):**
+
+Download or clone the repo, then double-click `index.html` — it opens directly in your browser.
+
+Or from the terminal:
+
+```bash
+# Windows
+start index.html
+
+# Mac
+open index.html
+
+# Linux
+xdg-open index.html
+```
+
+**Option 2 — Local server:**
+
 ```bash
 npx serve . -p 3000
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
-
-> No install required. Node.js must be available. `npx` will download `serve` automatically on first run.
+Then open **http://localhost:3000** in your browser (Node.js required).
 
 ---
 
